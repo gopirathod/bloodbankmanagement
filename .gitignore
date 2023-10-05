@@ -1,0 +1,22 @@
+# Ignore compiled files
+*.o
+*.out
+
+# Ignore log files
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+config/dev.env
+
+# Ignore dependencies (if you're using a package manager)
+node_modules/
+vendor/
+
+# Ignore build artifacts and directories
+build/
+dist/
